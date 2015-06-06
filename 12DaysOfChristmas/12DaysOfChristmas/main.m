@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
         for (NSInteger i = 1; i <= 12; i++)
         {
             NSLog(@"On the %ld day of Christmas, my true love sent to me ...", i);
+            NSLog(christmasGift = [array objectAtIndex:0]);
         };
         
         
