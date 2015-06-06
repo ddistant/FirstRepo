@@ -11,6 +11,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
+        //comments for git commit on 12 days
         
         NSArray *christmasGift = @"a partridge in a pear tree." ; @"2 turtle doves, and " ; @"3 French hens" ; @"4 calling birds" ; @"5 golden rings" ; @"6 geese a-laying" ; @"7 swans a-swimming" ; @"8 maids a-milking" ; @"9 ladies dancing" ; @"10 lords a-leaping" ; @"11 pipers piping" ; @"12 drummers drumming";
 
