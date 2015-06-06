@@ -47,25 +47,26 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Dictionary: %@", favoriteCarsAndManufacturers);
         
         NSString *line = @"+----------------------------------+";
-        NSString *classOne = @"|1|     English III";
-        NSString *classTwo = @"|2|     Precalculus";
-        NSString *classThree = @"|3|   Music Theory";
-        NSString *classFour = @"|4|  Biotechnology";
-        NSString *classFive = @"|5|       Latin II";
-
-        NSString *teacherOne = @"|     Ms. Lapan|";
-        NSString *teacherTwo = @"|   Mrs. Gideon|";
-        NSString *teacherThree = @"|   Mr. Davis|";
-        NSString *teacherFour = @"|   Ms. Palmer|";
-        NSString *teacherFive = @"| Mrs. Barnett|";
-        
-        NSLog(@"%@", line);
-        NSLog(@"%@ %@", classOne, teacherOne);
-        NSLog(@"%@ %@", classTwo, teacherTwo);
-        NSLog(@"%@ %@", classThree, teacherThree);
-        NSLog(@"%@ %@", classFour, teacherFour);
-        NSLog(@"%@ %@", classFive, teacherFive);
-        NSLog(@"%@", line);
-    }
+        NSArray *classes = @[]; 
+//        NSString *classOne = @"|1|     English III";
+//        NSString *classTwo = @"|2|     Precalculus";
+//        NSString *classThree = @"|3|   Music Theory";
+//        NSString *classFour = @"|4|  Biotechnology";
+//        NSString *classFive = @"|5|       Latin II";
+//
+//        NSString *teacherOne = @"|     Ms. Lapan|";
+//        NSString *teacherTwo = @"|   Mrs. Gideon|";
+//        NSString *teacherThree = @"|   Mr. Davis|";
+//        NSString *teacherFour = @"|   Ms. Palmer|";
+//        NSString *teacherFive = @"| Mrs. Barnett|";
+//        
+//        NSLog(@"%@", line);
+//        NSLog(@"%@ %@", classOne, teacherOne);
+//        NSLog(@"%@ %@", classTwo, teacherTwo);
+//        NSLog(@"%@ %@", classThree, teacherThree);
+//        NSLog(@"%@ %@", classFour, teacherFour);
+//        NSLog(@"%@ %@", classFive, teacherFive);
+//        NSLog(@"%@", line);
+//    }
     return 0;
 }
