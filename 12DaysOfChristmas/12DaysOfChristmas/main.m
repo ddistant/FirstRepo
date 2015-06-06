@@ -19,6 +19,7 @@ int main(int argc, const char * argv[]) {
         {
             NSLog(@"On the %ld day of Christmas, my true love sent to me ...", i);
             NSLog(christmasGift = [array objectAtIndex:0]);
+            // this is where my code gets totally screwed up lol
         };
         
         
